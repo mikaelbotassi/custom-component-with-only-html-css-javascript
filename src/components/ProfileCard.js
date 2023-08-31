@@ -18,7 +18,6 @@ class profileCard extends HTMLElement{
         const bootstrapLink = document.createElement('link');
         bootstrapLink.setAttribute('rel', 'stylesheet');
         bootstrapLink.setAttribute('href', './assets/styles/bs.min.css');
-        console.log("🚀 ~ file: ProfileCard.js:22 ~ profileCard ~ bootstrapLink ~ bootstrapLink:", bootstrapLink)
         return bootstrapLink;
     }
 
